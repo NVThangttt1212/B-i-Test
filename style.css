@@ -94,7 +94,6 @@ body{
     content: "";
     background-image: url('/assets/img/slider.jfif');
     background-size: cover;
-    background-size: center;
     position: absolute;
     top: 0px;
     right: 0px;
