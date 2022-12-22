@@ -92,7 +92,7 @@ body{
 
 .slider::before{
     content: "";
-    background-image: url('/img/slider.jfif');
+    background-image: url(/img/slider.jfif);
     background-size: cover;
     position: absolute;
     top: 0px;
