@@ -19,15 +19,6 @@
     }  
 }
 
-@media (min-width: 1024px) and (max-width:1440px){
-    .content{
-     padding: 0 20px;
-    }
-    .header__ct{
-        padding: 0 20px;
-    }
-
-}
 /* Tablet - PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
     .header__ct{
