@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin: auto;
+    width: 1440px;
+    max-width: 100%;
+   
+    font-family: 'Mulish';
+}
+
+.margin-left{
+    margin-left: 30px;
+}
+
+.jc{
+    margin-top: 16px;
+}
+
+body{
+    
+}
+
+.header{
+    width: 100%;
+    background-color: #eaeff7;
+}
+
+.header__ct{
+    width: 1110px;
+    margin: auto;
+    max-width: 100%;
+    align-items: center;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo img {
+   width: 63.4px;
+   height: 35.21px;
+   margin-right: 127px;
+   cursor: pointer;
+}
+
+.header .header__nav--item{
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    line-height: 18px;
+}
+
+.header__login{
+    display: inline-flex;
+}
+
+.header__login .header__login--text{
+    font-size: 14px;
+    margin: 0 20px;
+    color: #3C64B1;
+    line-height: 42px;
+}
+
+.header__login--btn:hover,
+.slider__content--btn button:hover,
+.content__mid--btn:hover{
+    opacity: 0.8;
+}
+
+.header__login .header__login--btn{
+    width: 106px;
+    height: 42px;
+    background-color: #3C64B1;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slider{
+    position: relative; 
+    height: 560px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider::before{
+    content: "";
+    background-image: url('/assets/img/slider.jfif');
+    background-size: cover;
+    background-size: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 8%;
+}
+
+.slider .slider__content{
+    position: relative;
+    color: #000;
+    width: 730px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.slider .slider__content h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    margin-bottom: 32px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+}
+
+.slider__content p {
+    margin-bottom: 56px;
+    color: #737B7D;
+    font-size: 16px;
+    line-height: 22px;
+    width: 730px;
+    letter-spacing: 0.3px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.slider__content--btn button{
+    width: 136px;
+    height: 42px;
+    border: 1.5px solid #3C64B1;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #3C64B1;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+
+.slider__content--btn button:first-child{
+    background-color: #3C64B1;
+    color: #fff;
+}
+
+.content{
+    background-color: #fff;
+    width: 1110px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+.content__top--text{
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.content__top--text h3{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    color: #373F41;
+}
+
+.content__top--text p{
+    color: #737B7D;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin-top: 24px;
+}
+
+.content__top--list{
+    margin-top: 38.33px;
+    margin-bottom: 106px;
+}
+
+.content__top--list{
+    text-align: center;
+}
+
+.content__top--item{
+    
+    max-width: 350px;
+}
+
+.content__top--item img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 29px;
+}
+
+.content__top--item h6{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1;
+    color: #373F41;
+    margin-bottom: 12px;   
+}
+
+.content__top--item p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    margin-bottom: 34px;
+}
+
+.content__top--item a{
+    text-decoration: none;
+    color: #3C64B1;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+
+.content__top--item:first-child{
+    opacity: 60%;
+}
+
+.content__mid--item{
+    display: flex;
+    max-width: 100%;
+}
+
+.content__mid--item:first-child{
+    margin-bottom: 108px;
+}
+
+.content__mid--item:last-child{
+    margin-bottom: 78px;
+}
+.content__mid--img{
+    width: 50%;
+}
+
+.content__mid--item .content__mid--img .img2,
+.img1{
+    width: 540px;
+    height: 440px;
+    max-width: 100%;
+   
+}
+
+.content__mid--text{
+    max-width: 100%;
+    width: 50%;
+    
+}
+.content__mid--text .content__mid--heading{
+    margin: 15px 0;
+    max-width: 540px;
+    margin-top: 36px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.1;
+    color: #373F41;
+}
+
+.content__mid--text .content__mid--description1{
+    font-size: 16px;
+    color: #737B7D;
+    margin-bottom: 56px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+}
+
+.content__mid--pl{
+    margin-bottom: 16px;
+    display: flex;
+}
+
+.content__mid--pl .content__mid--ip{
+    width: 377px;
+    height: 42px;
+    margin-right: 24px;
+    font-size: 14px;
+    padding-left: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    background-color: #F4F5F4;
+    border: none;
+}
+
+.content__mid--btn{
+    width: 139px;
+    height: 42px;
+    border: none;
+    background-color: #3C64B1;
+    color: #fff;
+    cursor: pointer;
+}
+.content__mid--description2{
+    font-size: 12px;
+    color: #373F41;
+    line-height: 16px;
+    
+}
+
+.content__mid--l{
+    display: flex;
+    margin-top: 58px;
+}
+
+.content__mid--i:first-child{
+    margin-right: 15px;
+}
+
+.content__mid--i:last-child{
+    margin-left: 15px;
+}
+
+.content__mid--i img{
+    
+    width: 32px;
+    height: 32px;
+}
+
+.content__mid--i p{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #737B7D;
+}
+
+.content__end{
+    display: flex;
+    margin-bottom: 95px;
+    max-width: 100%;
+}
+
+.content__end--item{
+    width: 25%;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 15px;
+}
+
+.content__end--item:first-child{
+    margin-left: 0px;
+}
+.content__end--item:last-child{
+    margin-right: 0px;
+}
+
+.content__end--item h6{
+    margin-top: 28px;
+    font-size: 18px;
+    color: #373F41;
+    line-height: 24px;
+}
+
+.content__end--item p{
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #373F41;
+}
+
+.content__end--item .content__end--img{
+    width: 255px;
+    height: 260px;
+    max-width: 100%;
+}
